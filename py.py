@@ -1,9 +1,22 @@
 
 def compra():
-    print()
+    nome = input("Digite seu nome: ")
+    print(f" Seja bem vindo(a) {nome}! Estamos muito felizes de te termos aqui! \n O projeto SmartGrow consiste no desenvolvimento de um sistema de agricultura vertical inteligente que visa maximizar o uso do espaço urbano. \n Para começar, precisamos dealgumas informações sobre sua comunidade")
+    cep_endereço = input("Digite seu CEP: ")
+    rua_endereço = input("Digite o nome da sua rua: ")
+    motivacao = input("Qual é a motivação da sua comunidade para entrar na missão SmartGrow?")
+    pessoas = input("Quantas pessoas da sua comunidade estarão envolvidas no projeto?")
+    projetos = input("Sua comunidade já fez parte de algum projeto em grupo? O que era? E como ocorreu?")
+    print(f'Obrigado(a) {nome}. Suas informações serão analisadas pela nossa equipe.')
+    tel_contato = input('Deixe aqui um telefone para contato para que possamos marcar uma visita a sua comunidade.')
+
+
+    
+    
 
 def sobre():
-    print()
+    print("O projeto Smartgrow propõe a utilização de estruturas modulares de agricultura vertical inteligente, que permitem o cultivo de alimentos de forma vertical em espaços urbanos, como telhados de prédios residenciais. \n Cada módulo é equipado com tecnologia inteligente, como sensores, iluminação artificial e controle de temperatura, para otimizar o crescimento das plantas. \n Essa abordagem inovadora permite o cultivo de uma quantidade significativa de alimentos em uma área reduzida, maximizando o uso do espaço disponível. ")
+    
 
 def simulacao():
     print("-"*60)
