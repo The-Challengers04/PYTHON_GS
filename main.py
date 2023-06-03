@@ -118,11 +118,12 @@ def simulacao():
 
     #Imprimindo as plantas armazenadas utilizando for in, caso não seja validado nada será apresentado formas do usuário poder plantar algo
     if podeSerPlantado:
-        print('-'*60)
+        print('')
         print('Pode ser plantado os seguintes itens:')
         for plantado in podeSerPlantado:
             print(plantado)
     else:
+        print('')
         print('Infelizmente você não pode plantar nada')
         print('Para resolver essa situação você pode:')
         print('- Tentar deixar o Ph do solo neutro, por volta de 6-7 ou deixar um pouco mais ácido no caso do morango')
